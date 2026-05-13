@@ -7,18 +7,51 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Dependencies
 node_modules
+.pnp
+.pnp.js
+
+# Build outputs
 dist
 dist-ssr
+*.local
 .output
 .vinxi
+
+# TanStack
 .tanstack/**
+
+# Nitro
 .nitro
-*.local
 
 # Wrangler / Cloudflare
 .wrangler/
 .dev.vars
+.dev.vars.example
+
+# Supabase
+supabase/.branches
+supabase/.temp
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+.env.staging
+.env.test
+
+# Vite
+vite.config.ts.timestamp-*
+
+# Bun
+bun.lockb
+.bun
+
+# TypeScript
+*.tsbuildinfo
 
 # Editor directories and files
 .vscode/*
@@ -30,3 +63,23 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+Thumbs.db
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+
+# Testing
+coverage
+*.lcov
+.nyc_output
+
+# Cache
+.cache
+.parcel-cache
+.eslintcache
+.stylelintcache

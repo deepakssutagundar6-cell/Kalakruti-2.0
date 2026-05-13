@@ -9,7 +9,7 @@ import hero from "@/assets/hero-bg.jpg";
 const imgs = [
   { src: dance,    h: "row-span-2" },
   { src: rangoli,  h: "" },
-  { src: peacock,  h: "row-span-2" },
+  { src: peacock,  h: "row-span-4 col-span-4" },
   { src: fashion,  h: "" },
   { src: singing,  h: "" },
   { src: hero,     h: "" },
